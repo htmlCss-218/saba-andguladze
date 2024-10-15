@@ -1,0 +1,97 @@
+.poto1 {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.div2 p {
+    font-family: 'Roboto', sans-serif; 
+   font-weight: bolder;
+   font-size: 24px;
+   line-height: 28.13px;
+   text-decoration: underline;
+   text-decoration-thickness: 5px;
+   margin: 40px;
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div3 p {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bolder;
+    font-size: 64px;
+    text-align: center;
+}
+
+li {
+    color: black;
+    font-size: 17px;
+}
+
+.div4 div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.div4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img1 {
+    height: 150px;
+    width: 200px;
+}
+
+.img2 {
+    width: 225px;
+    height: 150px;
+}
+
+.img3 {
+    width: 100px;
+    height: 150px;
+}
+
+.div5 p {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.div5 {
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 870px;
+    height: 220px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;;
+    border: 12px solid black;
+}
+
+footer input {
+    padding: 5px;
+    border: 2px solid black;
+}
