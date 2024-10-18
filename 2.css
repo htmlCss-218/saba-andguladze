@@ -1,0 +1,117 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    gap: 40px;
+    border: 2px solid black;
+    background-color: rgb(71, 70, 70);
+    position: sticky;
+}
+
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+body {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+ nav a:hover {
+    background-color: black;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.div1 {
+     display: flex;
+     justify-content: space-evenly;
+     margin: 20px;
+}
+
+td:hover {
+    color: green;
+    background-color: pink;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 90px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    width: 80px;
+    transition: width 0.5s;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-github {
+    background: rgb(102, 101, 101);
+    color: white;
+  }
+
+.div3 {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+img {
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+}
+
+.dive {
+    display: flex;
+    flex-direction: row;
+}
+
+.dive p {
+    position: absolute;
+    left: 60px;
+    top: 260px;
+}
+
+input {
+    width: 200px;
+    height: 100px;
+}
+
