@@ -1,0 +1,221 @@
+body {
+      background-color: #8ec1eb;
+      margin: 0;
+      padding: 0;
+}
+
+h1 {
+    color: #496072;
+    font-family: "Arima", system-ui;
+    text-shadow: 5px 5px 7px #536C7F;
+}
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+
+.txt p {
+    color: #F3F7FA;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.txt {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    font-family: "Arima", system-ui;
+}
+
+.satauri {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 64px 123px 0px 120px;
+}
+
+.potoebi img {
+    border-radius: 50%;
+    width: 405px;   
+    height: 340px;
+    transition: transform 1.8s, width 1.8s, height 1.8s;
+    transition-timing-function: ease;
+}
+
+.wrapper p {
+    width: 254px;
+    font-family: "Arima", system-ui;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 17px;
+    opacity: 0%;
+    transition: font-size 1.8s, width 1.8px, opacity 2s ease;
+}
+
+.txt2 p {
+    transition: opacity 2s ease;
+}
+
+.txt2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -360px;
+    gap: 90px;
+    margin-left: 30px;
+}
+
+.potoebi{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrapper:hover .potoebi img {
+    transform: scale(1.2) rotate(360deg);
+}
+
+.wrapper:hover .txt2 p {
+    opacity: 1;
+    transition: opacity 2s ease;
+}
+
+.wrapper{
+    margin-top: 100px;
+}
+
+.dausrulebeli {
+    position: absolute;
+    bottom: 250px;
+    border: 2px solid black;
+    width: 1899px;
+    height: 45px;
+    align-items: center;
+    display: flex;
+}
+
+.infinity {
+    position: relative;
+    animation: infinity 7s linear infinite;
+    margin: 0;
+}
+
+@keyframes infinity {
+    0% {
+      right: 1899px;
+    }
+    100% {
+      right: -1899px;
+    }
+}
+
+i {
+    font-size: 35px;
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-twitter{
+    color: white;
+    background-color: #69A0EF;
+    border-radius: 50%;
+}
+
+.fa-instagram {
+    color: white;
+    background-color: #BE3C6B;
+    border-radius: 9px;
+}
+
+.fa-linkedin {
+    color: blue;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.fa-youtube {
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.mainfooter2 {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.712);
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #7fadd3;
+}
+
+.mainfooter2 h1 {
+    color: rgba(245, 245, 245, 0.658);
+}
+
+.mainfooter, p {
+    color: white;
+    font-family: "Arima", system-ui;
+    font-size: 20px;
+}
+
+#company {
+    font-weight: bolder;
+    border-bottom: white solid 3px;
+    width: 35px;
+    border-radius: 3px;
+}
+
+#Services {
+    font-weight: bolder;
+    border-bottom: white solid 3px;
+    width: 35px;
+    border-radius: 3px;
+}
+
+#Account {
+    font-weight: bolder;
+    border-bottom: white solid 3px;
+    width: 35px;
+    border-radius: 3px;
+}
+
+#Courses {
+    font-weight: bolder;
+    border-bottom: white solid 3px;
+    width: 35px;
+    border-radius: 3px;
+}
+
+#Subscribe {
+    font-weight: bolder;
+    border-bottom: rgb(255, 255, 255) solid 3px;
+    width: 35px;
+    border-radius: 3px;
+}
+
+input{
+    background-color: rgba(15, 199, 231, 0);
+    padding: 8px;
+}
+
+.mainfooter3 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #7fadd3;
+}
+
+button {
+    background-color: #D0CEDD;
+    padding: 10px;
+    width: 130px;
+    position: absolute;
+    bottom: -30px;
+}
+
+.mainfooter4 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #719abb;
+}
+
+.ragaca{
+    display: flex;
+    gap: 40px;
+}
