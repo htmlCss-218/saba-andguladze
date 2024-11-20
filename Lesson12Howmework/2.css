@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background-color: #26335D;
+}
+
+nav h3 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffff;
+}
+
+.mainnav a {
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.nava {
+    display: flex;
+    gap: 21px;
+    position: relative;
+    right: 168px;
+}
+
+.nav1part {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1180px;
+    margin-top: 30px;
+    position: relative;
+    left: -250px;
+
+}
+
+.navButton {
+    padding: 10px 25px 10px 25px;
+    background: #1BC768;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.arrowicon {
+    background: none;
+    position: relative;
+    left: 10px;
+}
+
+.nav2part {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    position: relative;
+    bottom: -16px;
+}
+
+.mainnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#greentxt {
+    color: #1BC768;
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#bigtxt {
+    font-size: 58px;
+    color: #ffff;
+    font-family: montserrat;
+    font-weight: 700;
+    width: 515px;
+}
+
+#minitxt {
+    font-size: 20px;
+    color: #ffff;
+    font-family: montserrat;
+    font-weight: 400;
+    width: 415px;
+}
+
+.button1 {
+    padding: 15px 40px 15px 40px;
+    background: #1BC768;
+    border: none;
+    border-radius: 5px;
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.button2 {
+    padding: 15px 40px 15px 40px;
+    background: #1bc76800;
+    border: 1px solid #1BC768 ;
+    border-radius: 5px;
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    color:#1BC768;
+}
+
+.button2:hover {
+    color: white;
+    background-color: #1BC768;
+    cursor: pointer;
+}
+
+.main1part {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 250px;
+    gap: 30px;
+}
+
+.buttondiv{
+    display: flex;
+    gap: 10px;
+}
+
+.mainimg1 {
+    border-radius: 34.38px;
+    margin-top: 200px;
+}
+
+.mainimg2 {
+    border-radius: 34.38px;
+    margin-top: -456px;
+    margin-left: -295px;
+  /* position: absolute;
+  right: 245px; */
+}
+
+.maindiv {
+    display: flex;
+    justify-content: space-between;
+    gap: 920px;
+    align-items: center;
+    /* position: absolute;
+    bottom: 285px; */
+}
